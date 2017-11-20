@@ -1,0 +1,67 @@
+$icon-size: 55px;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+
+body {
+  overflow-x: hidden; 
+}
+
+/* Section: Top Navigation */
+.navbar {
+  .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+  .nav-item.active {
+    border-left: solid 2px #979797;
+  }
+
+}
+
+/* Section: Shocase - Carousel */
+.carousel-item {
+  height: 650px;
+  // height: 100vh;
+}
+
+.carousel-image-1 {
+  background: url('../images/image1.jpg') no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../images/image2.jpg') no-repeat;
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../images/image3.jpg') no-repeat;
+  background-size: cover;
+}
+
+/* Section: Home Icons */
+.fa {
+  font-size: $icon-size;
+}
+
+/* Section: Home Heading */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../images/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: repeat-xs;
+  text-align: center;
+  color: #fff;
+
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $dark-overlay;
+    width: 100%;
+    height: 100%;
+  }
+}
