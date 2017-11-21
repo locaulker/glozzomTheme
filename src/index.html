@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Glozzom Theme</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
@@ -133,7 +135,7 @@
         <div class="col-md-6 align-self-center">
           <h3>Advertising Business</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At in quaerat nulla quod animi a nesciunt possimus expedita error facilis!</p>
-          <a href="" class="btn btn-outline-danger btn-lg">Learn More</a>
+          <a href="" class="btn btn-outline-secondary btn-lg">Learn More</a>
         </div>
         <div class="col-md-6">
           <img src="images/laptop.png" alt="Laptop Image Displaying Website" class="img-fluid">
@@ -141,6 +143,41 @@
     </div>
     </div>
   </section>
+
+  <!-- Section: Video - Video Play Section -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
+              <i class="fa fa-play"></i>
+            </a>
+            <h1>See What We do!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Video - Video Modal -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
 
 
 
@@ -151,5 +188,6 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

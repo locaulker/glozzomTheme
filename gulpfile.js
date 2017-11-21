@@ -19,7 +19,7 @@ gulp.task('sass', function(){
     .pipe(browserSync.stream());
 });
 
-// Move JS files to scr/js folder
+// Move JS files to src/js folder
 gulp.task('js', function(){
   return gulp.src([
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
