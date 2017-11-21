@@ -93,3 +93,9 @@ body h1 {
 #video-play a {
   color: #fff;
 }
+
+/* Section: Footer */
+#main-footer {
+  background-color: #000;
+  color: #fff;
+}
