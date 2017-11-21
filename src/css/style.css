@@ -3,6 +3,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+body h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 /* Section: Top Navigation */
 .navbar .nav-link {
   font-size: 16px;
