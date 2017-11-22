@@ -7,16 +7,45 @@ profile
 .sublime-workspace
 
 #ignore packages
-node_modules
+node_modules/
 
 #ignore logs
 *.log
 
 #ignore generated files
-dev
-dist
+dev/
+dist/
 
 # Ignore env variables and secret keys
 secrets/*
 src/images/lights copy.psd
 .psd
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
