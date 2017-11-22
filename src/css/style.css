@@ -1,16 +1,17 @@
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
-body h1 {
+body h1, body h2 {
   font-weight: 300;
   text-transform: uppercase;
 }
 
 /* Section: Top Navigation */
 .navbar .nav-link {
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   padding-left: 1em !important;
   padding-right: 1em !important;
@@ -98,4 +99,20 @@ body h1 {
 #main-footer {
   background-color: #000;
   color: #fff;
+}
+
+/* ================ PAGE: ABOUT US ================ */
+/* Section: Page Header */
+#page-header {
+  height: 400px;
+  background: url("../images/image1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: solid 1px #eee;
+  padding-top: 150px;
+}
+
+#about img {
+  margin-top: -50px;
 }
