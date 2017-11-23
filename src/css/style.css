@@ -116,3 +116,23 @@ body h1, body h2 {
 #about img {
   margin-top: -50px;
 }
+
+/* ================ PAGE: SERVICES ================ */
+#services .fa-check {
+  font-size: 1rem;
+  padding-right: 5px;
+}
+
+/* ================ PAGE: SERVICES -> FAQs ================ */
+#faq .card {
+  border: #444;
+}
+
+#faq .card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body, #faq .card-header {
+  background: #333;
+}

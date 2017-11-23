@@ -127,3 +127,30 @@ body {
     margin-top: -50px;
   }
 }
+
+/* ================ PAGE: SERVICES ================ */
+#services {
+
+  .fa-check {
+    font-size: 1rem;
+    padding-right: 5px;
+  }
+}
+
+/* ================ PAGE: SERVICES -> FAQs ================ */
+#faq {
+  .card {
+    border: #444;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  .card-body, .card-header {
+    background: #333;
+  }
+
+
+}
